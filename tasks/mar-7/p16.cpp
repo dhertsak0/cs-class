@@ -8,13 +8,13 @@ Keep track of how many positive integers were entered and display that count at 
 
 int main(){
     int val;
-    int f = 1;
+    int f = 0;
     for (;;){
         cin >> val;
         if (val >0){
             f++;
         }else{
-            cout << f-1 << endl;
+            cout << f << endl;
             break;
         }
     }
