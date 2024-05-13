@@ -16,9 +16,10 @@ Write a C++ program that receives a 16-character string from the user and prints
 int main(){
     string str;
     cin >> str;
+    int k=0;
     for (int i =0; i<4; i++){
         for (int j=0;j<4;j++){
-            cout << str[j];
+            cout << str[k++]<< " ";
         }
         cout << endl;
     }
